@@ -24,5 +24,9 @@ urlpatterns = [
     path('sample2/',views.sample2,name="sample2"),
     path('sample3/',views.sample3,name="sample3"),
     path('sample4/',views.sample4,name="sample4"),
+    # path('great/<abc>',views.great,name="great")
+    path('great/<a>/<b>/<c>',views.great,name="great"),
+    path('add/<ab>',views.add,name="add"),
+    path('name/<Name>',views.name, name="name"),
 
 ]
